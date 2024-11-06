@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SATHAM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="Icon" href="./assets/satham.png">
+    <link rel="stylesheet" href="myweb.css">
+</head>
+<body>
+<!-- header -->
+<header class="header">
+    <a href="#" class="logo">Portfolio</a>
+    <i  class="bx bx-menu" id="menu-icon"></i>
+
+    <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        
+        <a href="#Skills">Skills</a>
+        <a href="#Educations">Educations</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+                        <!-- home -->
+
+<section class="home" id="home">
+    <div class="home-content">
+        <h3>Hello,It's Me</h3>
+        <h1>SATHAM E</h1>
+        
+        <h3>And I'm a  <span class="multiple-text"></span> </h3>
+     <p>As a fresh and passionate web developer. I 
+        bring a strong foundation in HTML, CSS, and 
+        JavaScript, with a keen interest in Angular. 
+        Eager to contribute to innovative web 
+        projects and continually expand my skill set 
+        to create dynamic and user-friendly websites. 
+     </p>
+        <div class="social-media">
+        <a href="https://www.instagram.com/d.i.e.satham/"><i class='bx bxl-instagram-alt'></i></a>
+        <a href="https://www.linkedin.com/in/satham-e-samsan-49648126a/"><i class='bx bxl-linkedin-square'></i></a>
+        <a href="https://github.com/sathamsamsan"><i class='bx bxl-github' ></i></a>
+        
+        </div>
+            <a href="./Img/SATHAM E web developer.pdf" class="btn">Download Cv</a>
+    </div>
+   
+</section>
+                   
+
+                   <!-- Skills -->
+
+
+                    
+<section class="Skills" id="Skills">
+   
+        <h2 class="heading">My <span>Skills</span></h2>
+       
+    
+     <div class="skills_main">
+        <div class="skill_bar">
+            <div class="info">
+                <p>HTML</p>
+                <P id="html"></P>
+            </div>
+            <div class="bar">
+                <span class="html"></span>
+            </div>
+        </div>
+        <div class="skill_bar">
+            <div class="info">
+                <p>CSS</p>
+                <P id="css"></P>
+            </div>
+            <div class="bar">
+                <span class="css"></span>
+            </div>
+        </div>
+                            
+        <div class="skill_bar">
+            <div class="info">
+                <p>Java Script</p>
+                <P id="js"></P>
+            </div>
+            <div class="bar">
+                <span class="js"></span>
+            </div>
+        </div>
+        <div class="skill_bar">
+            <div class="info">
+                <p>Angular</p>
+                <P id="angular"></P>
+            </div>
+            <div class="bar">
+                 <span class="sass"></span>
+            </div>
+        </div>
+     
+</section>
+
+
+            <!-- EDUCATIONS -->
+
+<section class="service" id="Educations">
+    <h2 class="heading"> <span>Educations</span></h2>
+    <div class="service-container">
+        <div class="service-box">
+        
+            <h3>Bsc.computer science</h3>
+            <h3>2018-2021</h3>
+            <h3>E.G.S.pillay arts and science collage</h3>
+            
+            </div>
+
+            <div class="service-box">
+            
+                <h3>HSC </h3>
+                <h3>2018 </h3>
+                <h3>Srinivasa higher secondary school</h3>
+                </div>
+
+                <div class="service-box">
+                    <h3>SSLC</h3>
+                <h3>2016 </h3>
+                <h3>Srinivasa higher secondary school</h3>
+
+                    </div>
+
+                    <div class="service-box">
+                        <h3>Certification</h3>
+                <h3>2024 </h3>
+                <h3>web Developer certificate by Accord info matrix 
+                    </h3>
+    
+                        </div>
+    </div>
+</section>
+
+   
+                    <!-- porfolio -->
+
+
+<section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Project</span></h2>
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="./Img/ecommerce.jpeg" alt="">
+            <div class="portfolio-layer">
+                 <h4>E-Commerce</h4>
+                 <p>Objective: Create an e-commerce website that allows users to browse products, 
+                    view product details, add products to a shopping cart, and complete purchases.!</p>
+             <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="./Img/weather.jpeg" alt="">
+            <div class="portfolio-layer">
+                 <h4>Weather</h4>
+                 <p>A web application that provides real-time weather information for any location worldwide. 
+                    The application allows users to search for current weather conditions, view forecasts, 
+                    and save favorite locations.</p>
+             <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>       
+    </div>
+</section>
+
+<!-- contact -->
+<section class="contact" id="contact">
+  <h2 class="heading">Contact <span>Me!</span></h2>
+<form action="https://api.web3forms.com/submit"  method="post"  id="contact-form" onsubmit="alert('thanks for contact');"  >
+
+     <!-- Replace with your Access Key ------>
+    
+
+    <div class="input-box">
+     <input type="hidden" name="access_key" value="8ed31d74-c4ca-4d7e-a422-20356c2da0e4">
+
+        <input type="text" placeholder=" full name" name="name" required>
+        <input type="email" placeholder=" email address"  name="email">
+
+    </div>
+
+    <div class="input-box">
+        <input type="text" name="mobile" placeholder=" mobile number"  pattern="[0-9]{10}" required>
+        <input type="email" name="sub" placeholder=" email sub"  >
+
+    </div>
+    <textarea name="comments" id="" cols="30" rows="10" placeholder="your comments" required></textarea>
+    <button class="button" >send message</button>
+    
+</form> 
+</div>
+</form>
+</section>
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2024 | All rights Reserved</p>
+    </div>
+
+    <div class="footer-icontop">
+        <a href="#"><i class='bx bx-chevrons-up'></i></a>
+    </div>
+</footer>
+
+<!-- scroll .js -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!-- Typed.js -->
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="myweb.js"></script>
+</body>
+</html>
